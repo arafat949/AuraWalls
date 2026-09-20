@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="12dp"
+    android:layout_marginEnd="12dp"
+    android:layout_marginBottom="14dp"
+    app:cardCornerRadius="18dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="#1A1B2E"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground">
+
+            <!-- Thumbnail -->
+            <ImageView
+                android:id="@+id/iv_video_thumb"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:background="#0D0E1A"/>
+
+            <!-- ExoPlayer PlayerView -->
+            <androidx.media3.ui.PlayerView
+                android:id="@+id/player_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:use_controller="false"
+                app:resize_mode="zoom"/>
+
+            <!-- Bottom gradient -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/gradient_bottom_black"/>
+
+            <!-- Duration badge -->
+            <TextView
+                android:id="@+id/tv_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|end"
+                android:layout_margin="10dp"
+                android:background="#CC000000"
+                android:paddingStart="7dp"
+                android:paddingEnd="7dp"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+                android:text="0:00"
+                android:textColor="#FFFFFF"
+                android:textSize="11sp"
+                android:textStyle="bold"/>
+
+            <!-- Source badge -->
+            <TextView
+                android:id="@+id/tv_source_badge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|start"
+                android:layout_margin="10dp"
+                android:background="#CC6C63FF"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+                android:text="▶ Pexels"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp"
+                android:textStyle="bold"/>
+
+            <!-- Play/Pause -->
+            <ImageView
+                android:id="@+id/iv_play_pause"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center"
+                android:src="@android:drawable/ic_media_play"
+                android:background="@drawable/circle_play_bg"
+                android:padding="12dp"/>
+
+            <!-- Mute -->
+            <ImageView
+                android:id="@+id/iv_mute"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_gravity="bottom|end"
+                android:layout_marginEnd="6dp"
+                android:layout_marginBottom="6dp"
+                android:src="@android:drawable/ic_lock_silent_mode"
+                android:background="#88000000"
+                android:padding="8dp"
+                android:scaleType="fitCenter"/>
+
+            <!-- Attribution -->
+            <TextView
+                android:id="@+id/tv_attribution"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|start"
+                android:layout_margin="6dp"
+                android:textColor="#AAFFFFFF"
+                android:textSize="9sp"
+                android:text="Video by Author"/>
+
+        </FrameLayout>
+
+        <!-- Action buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_set_wallpaper"
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:layout_weight="1"
+                android:text="📱 Set"
+                android:textSize="12sp"
+                android:textColor="#FFFFFF"
+                app:backgroundTint="#6C63FF"
+                app:cornerRadius="20dp"
+                style="@style/Widget.MaterialComponents.Button"/>
+
+            <View android:layout_width="10dp" android:layout_height="1dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_download"
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:layout_weight="1"
+                android:text="⬇ Download"
+                android:textSize="12sp"
+                android:textColor="#6C63FF"
+                app:backgroundTint="#1A6C63FF"
+                app:strokeColor="#6C63FF"
+                app:strokeWidth="1dp"
+                app:cornerRadius="20dp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

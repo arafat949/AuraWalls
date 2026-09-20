@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:background="#0D0E1A">
+    <com.google.android.material.appbar.AppBarLayout android:id="@+id/app_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="#0D0E1A" app:elevation="0dp">
+        <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" app:layout_scrollFlags="scroll|enterAlways" app:title="🎬 Video Walls" app:titleTextColor="#FFFFFF"/>
+        <HorizontalScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:scrollbars="none" android:paddingBottom="8dp">
+            <com.google.android.material.chip.ChipGroup android:id="@+id/chip_group_video_moods" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="12dp" android:paddingEnd="12dp" app:singleSelection="true"/>
+        </HorizontalScrollView>
+        <com.google.android.material.progressindicator.LinearProgressIndicator android:id="@+id/progress_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:visibility="gone" android:indeterminate="true" app:indicatorColor="#6C63FF"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/rv_videos" android:layout_width="match_parent" android:layout_height="match_parent" android:clipToPadding="false" android:paddingTop="8dp" android:paddingBottom="80dp" app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

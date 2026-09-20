@@ -1,0 +1,756 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.aurawalls.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:3:5-66
+11-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+12-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:4:5-76
+12-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:4:22-74
+13    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+13-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:5:5-71
+13-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:5:22-69
+14    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
+14-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:6:5-77
+14-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:6:22-75
+15    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+15-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:7:5-80
+15-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:7:22-78
+16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+16-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:8:5-76
+16-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:8:22-74
+17    <uses-permission
+17-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:9:5-10:37
+18        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+18-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:9:22-78
+19        android:maxSdkVersion="28" />
+19-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:10:9-35
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:11:5-64
+20-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:11:22-62
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:12:5-78
+21-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:12:22-76
+22    <uses-permission
+22-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:13:5-106
+23        android:name="android.permission.READ_EXTERNAL_STORAGE"
+23-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:13:22-77
+24        android:maxSdkVersion="32" />
+24-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:13:78-104
+25    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+25-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:14:5-75
+25-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:14:22-73
+26    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+26-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:26:5-79
+26-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:26:22-76
+27    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+27-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:27:5-82
+27-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:27:22-79
+28    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+28-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:28:5-88
+28-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:28:22-85
+29    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_TOPICS" /> <!-- Android package visibility setting -->
+29-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:29:5-83
+29-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:29:22-80
+30    <queries>
+30-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:35:5-51:15
+31
+32        <!-- For browser content -->
+33        <intent>
+33-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:38:9-44:18
+34            <action android:name="android.intent.action.VIEW" />
+34-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:39:13-65
+34-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:39:21-62
+35
+36            <category android:name="android.intent.category.BROWSABLE" />
+36-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:41:13-74
+36-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:41:23-71
+37
+38            <data android:scheme="https" />
+38-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:43:13-44
+38-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:43:19-41
+39        </intent>
+40        <!-- End of browser content -->
+41        <!-- For CustomTabsService -->
+42        <intent>
+42-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:47:9-49:18
+43            <action android:name="android.support.customtabs.action.CustomTabsService" />
+43-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:48:13-90
+43-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:48:21-87
+44        </intent>
+45        <!-- End of CustomTabsService -->
+46    </queries>
+47
+48    <uses-permission android:name="android.permission.WAKE_LOCK" />
+48-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:23:5-68
+48-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:23:22-65
+49
+50    <permission
+50-->[androidx.core:core:1.9.0] /home/arafat/.gradle/caches/transforms-3/f595e9437e6ae192de7d5fcfe731a40e/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+51        android:name="com.aurawalls.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+51-->[androidx.core:core:1.9.0] /home/arafat/.gradle/caches/transforms-3/f595e9437e6ae192de7d5fcfe731a40e/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+52        android:protectionLevel="signature" />
+52-->[androidx.core:core:1.9.0] /home/arafat/.gradle/caches/transforms-3/f595e9437e6ae192de7d5fcfe731a40e/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+53
+54    <uses-permission android:name="com.aurawalls.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+54-->[androidx.core:core:1.9.0] /home/arafat/.gradle/caches/transforms-3/f595e9437e6ae192de7d5fcfe731a40e/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+54-->[androidx.core:core:1.9.0] /home/arafat/.gradle/caches/transforms-3/f595e9437e6ae192de7d5fcfe731a40e/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+55
+56    <application
+56-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:16:5-90:19
+57        android:allowBackup="true"
+57-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:17:9-35
+58        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+58-->[androidx.core:core:1.9.0] /home/arafat/.gradle/caches/transforms-3/f595e9437e6ae192de7d5fcfe731a40e/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+59        android:debuggable="true"
+60        android:extractNativeLibs="false"
+61        android:icon="@mipmap/ic_launcher"
+61-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:18:9-43
+62        android:label="@string/app_name"
+62-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:19:9-41
+63        android:roundIcon="@mipmap/ic_launcher_round"
+63-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:20:9-54
+64        android:supportsRtl="true"
+64-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:21:9-35
+65        android:testOnly="true"
+66        android:theme="@style/Theme.AuraWalls"
+66-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:22:9-47
+67        android:usesCleartextTraffic="false" >
+67-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:23:9-45
+68        <meta-data
+68-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:25:9-26:51
+69            android:name="com.google.android.gms.ads.APPLICATION_ID"
+69-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:25:20-76
+70            android:value="@string/admob_app_id" />
+70-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:26:13-49
+71
+72        <!-- ── Launcher ──────────────────────────────────────────────── -->
+73        <activity
+73-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:29:9-35:20
+74            android:name="com.aurawalls.app.activities.SplashActivity"
+74-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:29:19-60
+75            android:exported="true"
+75-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:29:61-84
+76            android:screenOrientation="portrait" >
+76-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:30:13-49
+77            <intent-filter>
+77-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:31:13-34:29
+78                <action android:name="android.intent.action.MAIN" />
+78-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:32:17-68
+78-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:32:25-66
+79
+80                <category android:name="android.intent.category.LAUNCHER" />
+80-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:33:17-76
+80-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:33:27-74
+81            </intent-filter>
+82        </activity>
+83
+84        <!-- ── Core Activities ───────────────────────────────────────── -->
+85        <activity
+85-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:38:9-39:76
+86            android:name="com.aurawalls.app.activities.OnboardingActivity"
+86-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:38:19-64
+87            android:exported="false"
+87-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:39:13-37
+88            android:screenOrientation="portrait" />
+88-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:39:38-74
+89        <activity
+89-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:40:9-41:76
+90            android:name="com.aurawalls.app.activities.MainActivity"
+90-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:40:19-58
+91            android:exported="false"
+91-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:41:13-37
+92            android:screenOrientation="portrait" />
+92-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:41:38-74
+93        <activity
+93-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:42:9-43:76
+94            android:name="com.aurawalls.app.activities.WallpaperDetailActivity"
+94-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:42:19-69
+95            android:exported="false"
+95-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:43:13-37
+96            android:screenOrientation="portrait" />
+96-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:43:38-74
+97        <activity
+97-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:44:9-45:39
+98            android:name="com.aurawalls.app.activities.SettingsActivity"
+98-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:44:19-62
+99            android:exported="false" />
+99-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:45:13-37
+100        <activity
+100-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:46:9-47:76
+101            android:name="com.aurawalls.app.activities.FavoritesActivity"
+101-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:46:19-63
+102            android:exported="false"
+102-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:47:13-37
+103            android:screenOrientation="portrait" />
+103-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:47:38-74
+104        <activity
+104-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:48:9-49:76
+105            android:name="com.aurawalls.app.activities.BreakupModeActivity"
+105-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:48:19-65
+106            android:exported="false"
+106-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:49:13-37
+107            android:screenOrientation="portrait" />
+107-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:49:38-74
+108
+109        <!-- ── New Bottom Nav Activities ─────────────────────────────── -->
+110        <activity
+110-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:52:9-53:76
+111            android:name="com.aurawalls.app.activities.VideoActivity"
+111-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:52:19-59
+112            android:exported="false"
+112-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:53:13-37
+113            android:screenOrientation="portrait" />
+113-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:53:38-74
+114        <activity
+114-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:54:9-108
+115            android:name="com.aurawalls.app.activities.WallpaperCropActivity"
+115-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:54:19-67
+116            android:theme="@style/Theme.AuraWalls" />
+116-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:54:68-106
+117        <activity
+117-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:55:9-56:76
+118            android:name="com.aurawalls.app.activities.AuraDNAActivity"
+118-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:55:19-61
+119            android:exported="false"
+119-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:56:13-37
+120            android:screenOrientation="portrait" />
+120-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:56:38-74
+121        <activity
+121-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:57:9-58:76
+122            android:name="com.aurawalls.app.activities.MoodCameraActivity"
+122-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:57:19-64
+123            android:exported="false"
+123-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:58:13-37
+124            android:screenOrientation="portrait" />
+124-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:58:38-74
+125        <activity
+125-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:59:9-60:76
+126            android:name="com.aurawalls.app.activities.PrivacyPolicyActivity"
+126-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:59:19-67
+127            android:exported="false"
+127-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:60:13-37
+128            android:screenOrientation="portrait" />
+128-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:60:38-74
+129
+130        <!-- ── Receivers & Workers ───────────────────────────────────── -->
+131        <receiver
+131-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:63:9-67:20
+132            android:name="com.aurawalls.app.services.BootReceiver"
+132-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:63:19-56
+133            android:exported="true" >
+133-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:63:57-80
+134            <intent-filter>
+134-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:64:13-66:29
+135                <action android:name="android.intent.action.BOOT_COMPLETED" />
+135-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:65:17-78
+135-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:65:25-76
+136            </intent-filter>
+137        </receiver>
+138
+139        <activity
+139-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:69:13-129
+140            android:name="com.aurawalls.app.activities.ProfileActivity"
+140-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:69:23-65
+141            android:exported="false"
+141-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:69:66-90
+142            android:screenOrientation="portrait" />
+142-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:69:91-127
+143        <!-- FileProvider for sharing -->
+144        <provider
+145            android:name="androidx.core.content.FileProvider"
+145-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:72:13-62
+146            android:authorities="com.aurawalls.app.provider"
+146-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:73:13-60
+147            android:exported="false"
+147-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:74:13-37
+148            android:grantUriPermissions="true" >
+148-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:75:13-47
+149            <meta-data
+149-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:76:13-78:53
+150                android:name="android.support.FILE_PROVIDER_PATHS"
+150-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:77:17-67
+151                android:resource="@xml/file_paths" />
+151-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:78:17-51
+152        </provider>
+153
+154        <!-- Aura Widget -->
+155        <receiver
+155-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:82:9-89:20
+156            android:name="com.aurawalls.app.widget.AuraWidget"
+156-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:82:19-52
+157            android:exported="true" >
+157-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:82:53-76
+158            <intent-filter>
+158-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:83:13-85:29
+159                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+159-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:84:17-83
+159-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:84:25-81
+160            </intent-filter>
+161
+162            <meta-data
+162-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:86:13-88:59
+163                android:name="android.appwidget.provider"
+163-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:87:17-58
+164                android:resource="@xml/aura_widget_info" />
+164-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:88:17-57
+165        </receiver>
+166
+167        <service
+167-->[androidx.camera:camera-camera2:1.3.1] /home/arafat/.gradle/caches/transforms-3/80e79bdc022992646bc1df87c2c12c07/transformed/jetified-camera-camera2-1.3.1/AndroidManifest.xml:24:9-33:19
+168            android:name="androidx.camera.core.impl.MetadataHolderService"
+168-->[androidx.camera:camera-camera2:1.3.1] /home/arafat/.gradle/caches/transforms-3/80e79bdc022992646bc1df87c2c12c07/transformed/jetified-camera-camera2-1.3.1/AndroidManifest.xml:25:13-75
+169            android:enabled="false"
+169-->[androidx.camera:camera-camera2:1.3.1] /home/arafat/.gradle/caches/transforms-3/80e79bdc022992646bc1df87c2c12c07/transformed/jetified-camera-camera2-1.3.1/AndroidManifest.xml:26:13-36
+170            android:exported="false" >
+170-->[androidx.camera:camera-camera2:1.3.1] /home/arafat/.gradle/caches/transforms-3/80e79bdc022992646bc1df87c2c12c07/transformed/jetified-camera-camera2-1.3.1/AndroidManifest.xml:27:13-37
+171            <meta-data
+171-->[androidx.camera:camera-camera2:1.3.1] /home/arafat/.gradle/caches/transforms-3/80e79bdc022992646bc1df87c2c12c07/transformed/jetified-camera-camera2-1.3.1/AndroidManifest.xml:30:13-32:89
+172                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+172-->[androidx.camera:camera-camera2:1.3.1] /home/arafat/.gradle/caches/transforms-3/80e79bdc022992646bc1df87c2c12c07/transformed/jetified-camera-camera2-1.3.1/AndroidManifest.xml:31:17-103
+173                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+173-->[androidx.camera:camera-camera2:1.3.1] /home/arafat/.gradle/caches/transforms-3/80e79bdc022992646bc1df87c2c12c07/transformed/jetified-camera-camera2-1.3.1/AndroidManifest.xml:32:17-86
+174        </service> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+175        <activity
+175-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:56:9-61:43
+176            android:name="com.google.android.gms.ads.AdActivity"
+176-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:57:13-65
+177            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+177-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:58:13-122
+178            android:exported="false"
+178-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:59:13-37
+179            android:theme="@android:style/Theme.Translucent" />
+179-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:60:13-61
+180
+181        <provider
+181-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:63:9-68:43
+182            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+182-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:64:13-76
+183            android:authorities="com.aurawalls.app.mobileadsinitprovider"
+183-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:65:13-73
+184            android:exported="false"
+184-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:66:13-37
+185            android:initOrder="100" />
+185-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:67:13-36
+186
+187        <service
+187-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:70:9-74:43
+188            android:name="com.google.android.gms.ads.AdService"
+188-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:71:13-64
+189            android:enabled="true"
+189-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:72:13-35
+190            android:exported="false" />
+190-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:73:13-37
+191
+192        <activity
+192-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:76:9-80:43
+193            android:name="com.google.android.gms.ads.OutOfContextTestingActivity"
+193-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:77:13-82
+194            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+194-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:78:13-122
+195            android:exported="false" />
+195-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:79:13-37
+196        <activity
+196-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:81:9-88:43
+197            android:name="com.google.android.gms.ads.NotificationHandlerActivity"
+197-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:82:13-82
+198            android:excludeFromRecents="true"
+198-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:83:13-46
+199            android:exported="false"
+199-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:84:13-37
+200            android:launchMode="singleTask"
+200-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:85:13-44
+201            android:taskAffinity=""
+201-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:86:13-36
+202            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+202-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:87:13-72
+203
+204        <property
+204-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:90:9-92:62
+205            android:name="android.adservices.AD_SERVICES_CONFIG"
+205-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:91:13-65
+206            android:resource="@xml/gma_ad_services_config" />
+206-->[com.google.android.gms:play-services-ads-lite:23.0.0] /home/arafat/.gradle/caches/transforms-3/fb9e82a695e992d5d0524a35aab34b06/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:92:13-59
+207
+208        <provider
+208-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:29:9-37:20
+209            android:name="androidx.startup.InitializationProvider"
+209-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:30:13-67
+210            android:authorities="com.aurawalls.app.androidx-startup"
+210-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:31:13-68
+211            android:exported="false" >
+211-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:32:13-37
+212            <meta-data
+212-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:34:13-36:52
+213                android:name="androidx.work.WorkManagerInitializer"
+213-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:35:17-68
+214                android:value="androidx.startup" />
+214-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:36:17-49
+215            <meta-data
+215-->[androidx.emoji2:emoji2:1.2.0] /home/arafat/.gradle/caches/transforms-3/7166d4e3efb8b2e70cc653a371aedb37/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+216                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+216-->[androidx.emoji2:emoji2:1.2.0] /home/arafat/.gradle/caches/transforms-3/7166d4e3efb8b2e70cc653a371aedb37/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+217                android:value="androidx.startup" />
+217-->[androidx.emoji2:emoji2:1.2.0] /home/arafat/.gradle/caches/transforms-3/7166d4e3efb8b2e70cc653a371aedb37/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+218            <meta-data
+218-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/arafat/.gradle/caches/transforms-3/1d319ceedfdc2c4921004f796f825f10/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+219                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+219-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/arafat/.gradle/caches/transforms-3/1d319ceedfdc2c4921004f796f825f10/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+220                android:value="androidx.startup" />
+220-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/arafat/.gradle/caches/transforms-3/1d319ceedfdc2c4921004f796f825f10/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+221            <meta-data
+221-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/arafat/.gradle/caches/transforms-3/afd1e7bc4324b133207a192e244a5f7b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+222                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+222-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/arafat/.gradle/caches/transforms-3/afd1e7bc4324b133207a192e244a5f7b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+223                android:value="androidx.startup" />
+223-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/arafat/.gradle/caches/transforms-3/afd1e7bc4324b133207a192e244a5f7b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+224        </provider>
+225
+226        <service
+226-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:39:9-45:35
+227            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+227-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:40:13-88
+228            android:directBootAware="false"
+228-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:41:13-44
+229            android:enabled="@bool/enable_system_alarm_service_default"
+229-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:42:13-72
+230            android:exported="false" />
+230-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:43:13-37
+231        <service
+231-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:46:9-52:35
+232            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+232-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:47:13-84
+233            android:directBootAware="false"
+233-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:48:13-44
+234            android:enabled="@bool/enable_system_job_service_default"
+234-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:49:13-70
+235            android:exported="true"
+235-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:50:13-36
+236            android:permission="android.permission.BIND_JOB_SERVICE" />
+236-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:51:13-69
+237        <service
+237-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:53:9-59:35
+238            android:name="androidx.work.impl.foreground.SystemForegroundService"
+238-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:54:13-81
+239            android:directBootAware="false"
+239-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:55:13-44
+240            android:enabled="@bool/enable_system_foreground_service_default"
+240-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:56:13-77
+241            android:exported="false" />
+241-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:57:13-37
+242
+243        <receiver
+243-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:61:9-66:35
+244            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+244-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:62:13-88
+245            android:directBootAware="false"
+245-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:63:13-44
+246            android:enabled="true"
+246-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:64:13-35
+247            android:exported="false" />
+247-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:65:13-37
+248        <receiver
+248-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:67:9-77:20
+249            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+249-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:68:13-106
+250            android:directBootAware="false"
+250-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:69:13-44
+251            android:enabled="false"
+251-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:70:13-36
+252            android:exported="false" >
+252-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:71:13-37
+253            <intent-filter>
+253-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:73:13-76:29
+254                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+254-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:74:17-87
+254-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:74:25-84
+255                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+255-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:75:17-90
+255-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:75:25-87
+256            </intent-filter>
+257        </receiver>
+258        <receiver
+258-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:78:9-88:20
+259            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+259-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:79:13-104
+260            android:directBootAware="false"
+260-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:80:13-44
+261            android:enabled="false"
+261-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:81:13-36
+262            android:exported="false" >
+262-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:82:13-37
+263            <intent-filter>
+263-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:84:13-87:29
+264                <action android:name="android.intent.action.BATTERY_OKAY" />
+264-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:85:17-77
+264-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:85:25-74
+265                <action android:name="android.intent.action.BATTERY_LOW" />
+265-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:86:17-76
+265-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:86:25-73
+266            </intent-filter>
+267        </receiver>
+268        <receiver
+268-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:89:9-99:20
+269            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+269-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:90:13-104
+270            android:directBootAware="false"
+270-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:91:13-44
+271            android:enabled="false"
+271-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:92:13-36
+272            android:exported="false" >
+272-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:93:13-37
+273            <intent-filter>
+273-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:95:13-98:29
+274                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+274-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:96:17-83
+274-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:96:25-80
+275                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+275-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:97:17-82
+275-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:97:25-79
+276            </intent-filter>
+277        </receiver>
+278        <receiver
+278-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:100:9-109:20
+279            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+279-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:101:13-103
+280            android:directBootAware="false"
+280-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:102:13-44
+281            android:enabled="false"
+281-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:103:13-36
+282            android:exported="false" >
+282-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:104:13-37
+283            <intent-filter>
+283-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:106:13-108:29
+284                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+284-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:107:17-79
+284-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:107:25-76
+285            </intent-filter>
+286        </receiver>
+287        <receiver
+287-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:110:9-121:20
+288            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+288-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:111:13-88
+289            android:directBootAware="false"
+289-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:112:13-44
+290            android:enabled="false"
+290-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:113:13-36
+291            android:exported="false" >
+291-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:114:13-37
+292            <intent-filter>
+292-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:116:13-120:29
+293                <action android:name="android.intent.action.BOOT_COMPLETED" />
+293-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:65:17-78
+293-->/home/arafat/AuraWalls/app/src/main/AndroidManifest.xml:65:25-76
+294                <action android:name="android.intent.action.TIME_SET" />
+294-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:118:17-73
+294-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:118:25-70
+295                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+295-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:119:17-81
+295-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:119:25-78
+296            </intent-filter>
+297        </receiver>
+298        <receiver
+298-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:122:9-131:20
+299            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+299-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:123:13-99
+300            android:directBootAware="false"
+300-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:124:13-44
+301            android:enabled="@bool/enable_system_alarm_service_default"
+301-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:125:13-72
+302            android:exported="false" >
+302-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:126:13-37
+303            <intent-filter>
+303-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:128:13-130:29
+304                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+304-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:129:17-98
+304-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:129:25-95
+305            </intent-filter>
+306        </receiver>
+307        <receiver
+307-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:132:9-142:20
+308            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+308-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:133:13-78
+309            android:directBootAware="false"
+309-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:134:13-44
+310            android:enabled="true"
+310-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:135:13-35
+311            android:exported="true"
+311-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:136:13-36
+312            android:permission="android.permission.DUMP" >
+312-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:137:13-57
+313            <intent-filter>
+313-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:139:13-141:29
+314                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+314-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:140:17-88
+314-->[androidx.work:work-runtime:2.9.0] /home/arafat/.gradle/caches/transforms-3/695e9f6d650d0d2bd6af1eced32e733f/transformed/work-runtime-2.9.0/AndroidManifest.xml:140:25-85
+315            </intent-filter>
+316        </receiver>
+317
+318        <uses-library
+318-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /home/arafat/.gradle/caches/transforms-3/b2f13055c0f556ef3f7161632f585beb/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:23:9-25:40
+319            android:name="android.ext.adservices"
+319-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /home/arafat/.gradle/caches/transforms-3/b2f13055c0f556ef3f7161632f585beb/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:24:13-50
+320            android:required="false" />
+320-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /home/arafat/.gradle/caches/transforms-3/b2f13055c0f556ef3f7161632f585beb/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:25:13-37
+321
+322        <meta-data
+322-->[com.github.bumptech.glide:okhttp3-integration:4.16.0] /home/arafat/.gradle/caches/transforms-3/e7c4ca024f0441ab8709af248ee9cba5/transformed/jetified-okhttp3-integration-4.16.0/AndroidManifest.xml:10:9-12:43
+323            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+323-->[com.github.bumptech.glide:okhttp3-integration:4.16.0] /home/arafat/.gradle/caches/transforms-3/e7c4ca024f0441ab8709af248ee9cba5/transformed/jetified-okhttp3-integration-4.16.0/AndroidManifest.xml:11:13-84
+324            android:value="GlideModule" />
+324-->[com.github.bumptech.glide:okhttp3-integration:4.16.0] /home/arafat/.gradle/caches/transforms-3/e7c4ca024f0441ab8709af248ee9cba5/transformed/jetified-okhttp3-integration-4.16.0/AndroidManifest.xml:12:13-40
+325
+326        <service
+326-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /home/arafat/.gradle/caches/transforms-3/a4b0b45a77dffc4ad34bcb67f82fe0c5/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:9:9-15:19
+327            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+327-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /home/arafat/.gradle/caches/transforms-3/a4b0b45a77dffc4ad34bcb67f82fe0c5/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:10:13-91
+328            android:directBootAware="true"
+328-->[com.google.mlkit:common:18.1.0] /home/arafat/.gradle/caches/transforms-3/e9d6d2dca797bcec756dda0825a9ee43/transformed/jetified-common-18.1.0/AndroidManifest.xml:17:13-43
+329            android:exported="false" >
+329-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /home/arafat/.gradle/caches/transforms-3/a4b0b45a77dffc4ad34bcb67f82fe0c5/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:11:13-37
+330            <meta-data
+330-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /home/arafat/.gradle/caches/transforms-3/a4b0b45a77dffc4ad34bcb67f82fe0c5/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:12:13-14:85
+331                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
+331-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /home/arafat/.gradle/caches/transforms-3/a4b0b45a77dffc4ad34bcb67f82fe0c5/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:13:17-114
+332                android:value="com.google.firebase.components.ComponentRegistrar" />
+332-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /home/arafat/.gradle/caches/transforms-3/a4b0b45a77dffc4ad34bcb67f82fe0c5/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:14:17-82
+333            <meta-data
+333-->[com.google.mlkit:vision-common:17.1.0] /home/arafat/.gradle/caches/transforms-3/7e2c1c2dd217bf96a0f6eb89e84c829e/transformed/jetified-vision-common-17.1.0/AndroidManifest.xml:12:13-14:85
+334                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+334-->[com.google.mlkit:vision-common:17.1.0] /home/arafat/.gradle/caches/transforms-3/7e2c1c2dd217bf96a0f6eb89e84c829e/transformed/jetified-vision-common-17.1.0/AndroidManifest.xml:13:17-124
+335                android:value="com.google.firebase.components.ComponentRegistrar" />
+335-->[com.google.mlkit:vision-common:17.1.0] /home/arafat/.gradle/caches/transforms-3/7e2c1c2dd217bf96a0f6eb89e84c829e/transformed/jetified-vision-common-17.1.0/AndroidManifest.xml:14:17-82
+336            <meta-data
+336-->[com.google.mlkit:common:18.1.0] /home/arafat/.gradle/caches/transforms-3/e9d6d2dca797bcec756dda0825a9ee43/transformed/jetified-common-18.1.0/AndroidManifest.xml:20:13-22:85
+337                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+337-->[com.google.mlkit:common:18.1.0] /home/arafat/.gradle/caches/transforms-3/e9d6d2dca797bcec756dda0825a9ee43/transformed/jetified-common-18.1.0/AndroidManifest.xml:21:17-120
+338                android:value="com.google.firebase.components.ComponentRegistrar" />
+338-->[com.google.mlkit:common:18.1.0] /home/arafat/.gradle/caches/transforms-3/e9d6d2dca797bcec756dda0825a9ee43/transformed/jetified-common-18.1.0/AndroidManifest.xml:22:17-82
+339        </service>
+340
+341        <provider
+341-->[com.google.mlkit:common:18.1.0] /home/arafat/.gradle/caches/transforms-3/e9d6d2dca797bcec756dda0825a9ee43/transformed/jetified-common-18.1.0/AndroidManifest.xml:9:9-13:38
+342            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+342-->[com.google.mlkit:common:18.1.0] /home/arafat/.gradle/caches/transforms-3/e9d6d2dca797bcec756dda0825a9ee43/transformed/jetified-common-18.1.0/AndroidManifest.xml:10:13-78
+343            android:authorities="com.aurawalls.app.mlkitinitprovider"
+343-->[com.google.mlkit:common:18.1.0] /home/arafat/.gradle/caches/transforms-3/e9d6d2dca797bcec756dda0825a9ee43/transformed/jetified-common-18.1.0/AndroidManifest.xml:11:13-69
+344            android:exported="false"
+344-->[com.google.mlkit:common:18.1.0] /home/arafat/.gradle/caches/transforms-3/e9d6d2dca797bcec756dda0825a9ee43/transformed/jetified-common-18.1.0/AndroidManifest.xml:12:13-37
+345            android:initOrder="99" />
+345-->[com.google.mlkit:common:18.1.0] /home/arafat/.gradle/caches/transforms-3/e9d6d2dca797bcec756dda0825a9ee43/transformed/jetified-common-18.1.0/AndroidManifest.xml:13:13-35
+346
+347        <activity
+347-->[com.google.android.gms:play-services-base:18.0.1] /home/arafat/.gradle/caches/transforms-3/fa95d67226350e2dbb6ef9c3511260e2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+348            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+348-->[com.google.android.gms:play-services-base:18.0.1] /home/arafat/.gradle/caches/transforms-3/fa95d67226350e2dbb6ef9c3511260e2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+349            android:exported="false"
+349-->[com.google.android.gms:play-services-base:18.0.1] /home/arafat/.gradle/caches/transforms-3/fa95d67226350e2dbb6ef9c3511260e2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+350            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+350-->[com.google.android.gms:play-services-base:18.0.1] /home/arafat/.gradle/caches/transforms-3/fa95d67226350e2dbb6ef9c3511260e2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+351
+352        <meta-data
+352-->[com.google.android.gms:play-services-basement:18.2.0] /home/arafat/.gradle/caches/transforms-3/c5e00e5f0aa71292c7ac6badd4ebceff/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
+353            android:name="com.google.android.gms.version"
+353-->[com.google.android.gms:play-services-basement:18.2.0] /home/arafat/.gradle/caches/transforms-3/c5e00e5f0aa71292c7ac6badd4ebceff/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
+354            android:value="@integer/google_play_services_version" />
+354-->[com.google.android.gms:play-services-basement:18.2.0] /home/arafat/.gradle/caches/transforms-3/c5e00e5f0aa71292c7ac6badd4ebceff/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
+355
+356        <uses-library
+356-->[androidx.window:window:1.0.0] /home/arafat/.gradle/caches/transforms-3/d2d9cbfbecfcc48eab5434d2eb19bcd4/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+357            android:name="androidx.window.extensions"
+357-->[androidx.window:window:1.0.0] /home/arafat/.gradle/caches/transforms-3/d2d9cbfbecfcc48eab5434d2eb19bcd4/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+358            android:required="false" />
+358-->[androidx.window:window:1.0.0] /home/arafat/.gradle/caches/transforms-3/d2d9cbfbecfcc48eab5434d2eb19bcd4/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+359        <uses-library
+359-->[androidx.window:window:1.0.0] /home/arafat/.gradle/caches/transforms-3/d2d9cbfbecfcc48eab5434d2eb19bcd4/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+360            android:name="androidx.window.sidecar"
+360-->[androidx.window:window:1.0.0] /home/arafat/.gradle/caches/transforms-3/d2d9cbfbecfcc48eab5434d2eb19bcd4/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+361            android:required="false" />
+361-->[androidx.window:window:1.0.0] /home/arafat/.gradle/caches/transforms-3/d2d9cbfbecfcc48eab5434d2eb19bcd4/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+362
+363        <service
+363-->[androidx.room:room-runtime:2.5.0] /home/arafat/.gradle/caches/transforms-3/57c7ba37778ec34aa874b073c69a9f73/transformed/room-runtime-2.5.0/AndroidManifest.xml:24:9-28:63
+364            android:name="androidx.room.MultiInstanceInvalidationService"
+364-->[androidx.room:room-runtime:2.5.0] /home/arafat/.gradle/caches/transforms-3/57c7ba37778ec34aa874b073c69a9f73/transformed/room-runtime-2.5.0/AndroidManifest.xml:25:13-74
+365            android:directBootAware="true"
+365-->[androidx.room:room-runtime:2.5.0] /home/arafat/.gradle/caches/transforms-3/57c7ba37778ec34aa874b073c69a9f73/transformed/room-runtime-2.5.0/AndroidManifest.xml:26:13-43
+366            android:exported="false" />
+366-->[androidx.room:room-runtime:2.5.0] /home/arafat/.gradle/caches/transforms-3/57c7ba37778ec34aa874b073c69a9f73/transformed/room-runtime-2.5.0/AndroidManifest.xml:27:13-37
+367
+368        <receiver
+368-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/arafat/.gradle/caches/transforms-3/afd1e7bc4324b133207a192e244a5f7b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+369            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+369-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/arafat/.gradle/caches/transforms-3/afd1e7bc4324b133207a192e244a5f7b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+370            android:directBootAware="false"
+370-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/arafat/.gradle/caches/transforms-3/afd1e7bc4324b133207a192e244a5f7b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+371            android:enabled="true"
+371-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/arafat/.gradle/caches/transforms-3/afd1e7bc4324b133207a192e244a5f7b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+372            android:exported="true"
+372-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/arafat/.gradle/caches/transforms-3/afd1e7bc4324b133207a192e244a5f7b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+373            android:permission="android.permission.DUMP" >
+373-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/arafat/.gradle/caches/transforms-3/afd1e7bc4324b133207a192e244a5f7b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+374            <intent-filter>
+374-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/arafat/.gradle/caches/transforms-3/afd1e7bc4324b133207a192e244a5f7b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+375                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+375-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/arafat/.gradle/caches/transforms-3/afd1e7bc4324b133207a192e244a5f7b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+375-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/arafat/.gradle/caches/transforms-3/afd1e7bc4324b133207a192e244a5f7b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+376            </intent-filter>
+377            <intent-filter>
+377-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/arafat/.gradle/caches/transforms-3/afd1e7bc4324b133207a192e244a5f7b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+378                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+378-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/arafat/.gradle/caches/transforms-3/afd1e7bc4324b133207a192e244a5f7b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+378-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/arafat/.gradle/caches/transforms-3/afd1e7bc4324b133207a192e244a5f7b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+379            </intent-filter>
+380            <intent-filter>
+380-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/arafat/.gradle/caches/transforms-3/afd1e7bc4324b133207a192e244a5f7b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+381                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+381-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/arafat/.gradle/caches/transforms-3/afd1e7bc4324b133207a192e244a5f7b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+381-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/arafat/.gradle/caches/transforms-3/afd1e7bc4324b133207a192e244a5f7b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+382            </intent-filter>
+383            <intent-filter>
+383-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/arafat/.gradle/caches/transforms-3/afd1e7bc4324b133207a192e244a5f7b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+384                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+384-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/arafat/.gradle/caches/transforms-3/afd1e7bc4324b133207a192e244a5f7b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+384-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/arafat/.gradle/caches/transforms-3/afd1e7bc4324b133207a192e244a5f7b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+385            </intent-filter>
+386        </receiver>
+387
+388        <service
+388-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/arafat/.gradle/caches/transforms-3/046fce044e8ea1d919195bc494c67708/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+389            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+389-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/arafat/.gradle/caches/transforms-3/046fce044e8ea1d919195bc494c67708/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+390            android:exported="false" >
+390-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/arafat/.gradle/caches/transforms-3/046fce044e8ea1d919195bc494c67708/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+391            <meta-data
+391-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/arafat/.gradle/caches/transforms-3/046fce044e8ea1d919195bc494c67708/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+392                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+392-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/arafat/.gradle/caches/transforms-3/046fce044e8ea1d919195bc494c67708/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+393                android:value="cct" />
+393-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/arafat/.gradle/caches/transforms-3/046fce044e8ea1d919195bc494c67708/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+394        </service>
+395        <service
+395-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/arafat/.gradle/caches/transforms-3/eb85e9299727e6054935556e0dc9c276/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
+396            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+396-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/arafat/.gradle/caches/transforms-3/eb85e9299727e6054935556e0dc9c276/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
+397            android:exported="false"
+397-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/arafat/.gradle/caches/transforms-3/eb85e9299727e6054935556e0dc9c276/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
+398            android:permission="android.permission.BIND_JOB_SERVICE" >
+398-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/arafat/.gradle/caches/transforms-3/eb85e9299727e6054935556e0dc9c276/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
+399        </service>
+400
+401        <receiver
+401-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/arafat/.gradle/caches/transforms-3/eb85e9299727e6054935556e0dc9c276/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
+402            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+402-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/arafat/.gradle/caches/transforms-3/eb85e9299727e6054935556e0dc9c276/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:33:13-132
+403            android:exported="false" />
+403-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/arafat/.gradle/caches/transforms-3/eb85e9299727e6054935556e0dc9c276/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
+404    </application>
+405
+406</manifest>

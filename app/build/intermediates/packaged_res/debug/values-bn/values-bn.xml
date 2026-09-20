@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="language_labels">
+        <item>স্বয়ংক্রিয়</item><item>English</item><item>বাংলা</item>
+    </string-array>
+    <string-array name="language_values">
+        <item>auto</item><item>en</item><item>bn</item>
+    </string-array>
+    <string name="app_name">AuraWalls</string>
+    <string name="dna_retake_btn">🔄 Aura Quiz আবার দাও</string>
+    <string name="dna_share_btn">✨ Aura DNA শেয়ার করো</string>
+    <string name="dna_share_text">✨ আমার Aura DNA: %1$s\n\n%2$s\n\nতোমারটা জানতে: AuraWalls ডাউনলোড করো 🌟</string>
+    <string name="dna_title">🧬 Aura DNA</string>
+    <string name="dna_trait_analysis">Trait বিশ্লেষণ</string>
+    <string name="dna_trait_calm">😌 শান্তি</string>
+    <string name="dna_trait_creative">🎨 সৃজনশীলতা</string>
+    <string name="dna_trait_depth">🌊 গভীরতা</string>
+    <string name="dna_trait_energy">⚡ শক্তি</string>
+    <string name="dna_trait_mystery">🌙 রহস্য</string>
+    <string name="dna_your">🧬 তোমার Aura DNA</string>
+    <string name="downloading">ডাউনলোড হচ্ছে…</string>
+    <string name="healing_banner_text">💙 Healing Journey — Day 0/30</string>
+    <string name="healing_feature1_desc">Soft, comforting wallpapers automatically set হবে</string>
+    <string name="healing_feature1_title">Healing Wallpapers</string>
+    <string name="healing_feature2_desc">৩০ দিন প্রতিদিন একটা করে motivational message</string>
+    <string name="healing_feature2_title">Daily Healing Messages</string>
+    <string name="healing_feature3_desc">৩০ দিন পরে celebration!</string>
+    <string name="healing_feature3_title">30-Day Journey</string>
+    <string name="healing_hero_subtitle">তুমি একা নও। এই journey তে আমরা তোমার সাথে আছি।</string>
+    <string name="healing_loading_msg">আজকের message লোড হচ্ছে...</string>
+    <string name="healing_mode_title">💙 Healing Mode</string>
+    <string name="healing_not_active_quote">💬</string>
+    <string name="healing_privacy_note">তোমার privacy সম্পূর্ণ সুরক্ষিত। কোনো data share হয় না।</string>
+    <string name="healing_section_wallpapers">🌸 Healing Wallpapers</string>
+    <string name="healing_start_btn">💙  Healing Journey শুরু করো</string>
+    <string name="healing_start_later">পরে</string>
+    <string name="healing_start_msg">৩০ দিন ধরে প্রতিদিন একটা healing message পাবে। Wallpaper automatically soft হয়ে যাবে। তুমি কি শুরু করতে চাও?</string>
+    <string name="healing_start_title">💙 Healing Journey শুরু করবে?</string>
+    <string name="healing_start_yes">হ্যাঁ, শুরু করো</string>
+    <string name="healing_started_toast">💙 Healing Journey শুরু হয়েছে! প্রতিদিন একটা message পাবে।</string>
+    <string name="healing_stop_btn">Healing Mode বন্ধ করো</string>
+    <string name="healing_stop_msg">তোমার progress হারিয়ে যাবে। নিশ্চিত?</string>
+    <string name="healing_stop_no">না</string>
+    <string name="healing_stop_title">Healing Mode বন্ধ করবে?</string>
+    <string name="healing_stop_yes">হ্যাঁ</string>
+    <string name="healing_stopped_toast">Healing Mode বন্ধ হয়েছে।</string>
+    <string name="healing_what_you_get">Healing Mode এ যা পাবে:</string>
+    <string name="healing_your_journey">তোমার Healing Journey</string>
+    <string name="mood_almost">✨ প্রায় শেষ...</string>
+    <string name="mood_analyzing">🔍 তোমার মুখ বিশ্লেষণ করা হচ্ছে...</string>
+    <string name="mood_apply_btn">🎨 Mood Wallpaper লাগাও</string>
+    <string name="mood_detected">Detected Mood</string>
+    <string name="mood_processing">🧠 emotion প্রক্রিয়া করা হচ্ছে...</string>
+    <string name="mood_scan_btn">📸 Mood স্ক্যান করো</string>
+    <string name="mood_subtitle">মুখ স্ক্যান করো, mood অনুযায়ী wallpaper পাও</string>
+    <string name="mood_title">😊 Mood Detector</string>
+    <string name="nav_dna">AuraDNA</string>
+    <string name="nav_home">হোম</string>
+    <string name="nav_mood">Mood</string>
+    <string name="nav_profile">প্রোফাইল</string>
+    <string name="nav_videos">ভিডিও</string>
+    <string name="no_internet">ইন্টারনেট সংযোগ নেই</string>
+    <string name="no_internet_msg">সংযোগ চেক করে আবার চেষ্টা করো</string>
+    <string name="no_videos_found">কোনো ভিডিও পাওয়া যায়নি। অন্য mood চেষ্টা করো।</string>
+    <string name="open_arrow">খুলুন →</string>
+    <string name="press_back_exit">বের হতে আবার back চাপো</string>
+    <string name="privacy_title">গোপনীয়তা নীতি</string>
+    <string name="retry">আবার চেষ্টা করো</string>
+    <string name="settings_language">ভাষা</string>
+    <string name="settings_language_auto">স্বয়ংক্রিয় (অঞ্চল অনুযায়ী)</string>
+    <string name="splash_tagline">তোমার vibe. তোমার walls.</string>
+    <string name="splash_version">v1.0.0</string>
+    <string name="video_coming_soon">Video wallpaper শীঘ্রই আসছে!</string>
+    <string name="video_download">⬇ ডাউনলোড</string>
+    <string name="video_set_wallpaper">📱 সেট করো</string>
+    <string name="video_source_note">Pexels ও Pixabay থেকে — বিনামূল্যে ও লাইসেন্সকৃত</string>
+    <string name="video_walls_title">🎬 Video Walls</string>
+    <string name="your_aura">✨ আপনার Aura: </string>
+</resources>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0D0E1A">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0D0E1A"
+        android:theme="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar"
+        app:elevation="0dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:title="@string/app_name"/>
+
+        <!-- Aura Banner -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/aura_banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:visibility="gone"
+            app:cardCornerRadius="12dp"
+            app:cardBackgroundColor="#226C63FF">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="vertical" android:padding="12dp">
+                <TextView android:id="@+id/tv_aura_greeting" android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:textColor="@color/white"
+                    android:textStyle="bold" android:textSize="14sp" android:text="✨ আপনার Aura"/>
+                <TextView android:id="@+id/tv_weather_tag" android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:textColor="#CCFFFFFF"
+                    android:textSize="12sp" android:visibility="gone"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Seasonal Banner -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/seasonal_banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginTop="0dp"
+            android:visibility="gone"
+            app:cardCornerRadius="12dp"
+            app:cardBackgroundColor="#22FF6584">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="vertical" android:padding="12dp">
+                <TextView android:id="@+id/tv_seasonal_name" android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:textColor="@color/white"
+                    android:textStyle="bold" android:textSize="14sp"/>
+                <TextView android:id="@+id/tv_seasonal_msg" android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:textColor="#CCFFFFFF"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Healing Banner -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/healing_banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="6dp"
+            android:visibility="gone"
+            app:cardCornerRadius="16dp"
+            app:cardBackgroundColor="#1A4A90D9"
+            app:cardElevation="0dp"
+            app:strokeColor="#334A90D9"
+            app:strokeWidth="1dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:padding="12dp">
+                <TextView
+                    android:id="@+id/tv_healing_text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="💙 Healing Journey — Day 1/30"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Open →"
+                    android:textColor="#AA4A90D9"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Mood Chips -->
+        <HorizontalScrollView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:scrollbars="none" android:paddingBottom="8dp">
+            <com.google.android.material.chip.ChipGroup
+                android:id="@+id/chip_group_moods"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:paddingStart="12dp" android:paddingEnd="12dp"
+                app:singleSelection="true"/>
+        </HorizontalScrollView>
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:id="@+id/progress_bar" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:visibility="gone"
+            android:indeterminate="true"
+            app:indicatorColor="#6C63FF"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- Wallpaper Grid — paddingBottom=56dp so content doesn't hide behind nav bar -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_wallpapers"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingBottom="56dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+    <!-- AdMob banner sits just above bottom nav -->
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/ad_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="56dp"
+        app:adSize="BANNER"
+        app:adUnitId="@string/admob_banner_id"/>
+
+    <!-- No Internet overlay -->
+    <LinearLayout
+        android:id="@+id/no_internet_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="32dp"
+        android:visibility="gone">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="📡" android:textSize="64sp" android:gravity="center"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="No Internet Connection"
+            android:textSize="20sp" android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginTop="16dp" android:gravity="center"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Please check your connection and try again"
+            android:textSize="14sp" android:textColor="#AAFFFFFF"
+            android:layout_marginTop="8dp" android:gravity="center"/>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_retry"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Retry"
+            app:cornerRadius="24dp"
+            app:backgroundTint="#6C63FF"/>
+    </LinearLayout>
+
+    <!-- ════════════════════════════════════════════════════
+         BOTTOM NAVIGATION BAR — Facebook style
+         ════════════════════════════════════════════════════ -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_gravity="bottom"
+        android:background="#0D0E1A"
+        app:itemIconTint="@color/bottom_nav_colors"
+        app:itemTextColor="@color/bottom_nav_colors"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/bottom_nav_menu"
+        app:elevation="8dp"/>
+
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="No wallpapers found"
+        android:textSize="16sp"
+        android:visibility="gone"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

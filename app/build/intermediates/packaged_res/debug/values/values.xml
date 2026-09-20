@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="grid_labels">
+        <item>2 Columns</item><item>3 Columns</item><item>4 Columns</item>
+    </string-array>
+    <string-array name="grid_values">
+        <item>2</item><item>3</item><item>4</item>
+    </string-array>
+    <string-array name="interval_labels">
+        <item>Every 30 minutes</item>
+        <item>Every 1 hour</item>
+        <item>Every 3 hours</item>
+        <item>Every 6 hours</item>
+        <item>Every 12 hours</item>
+        <item>Every 24 hours</item>
+    </string-array>
+    <string-array name="interval_values">
+        <item>1</item>
+        <item>1</item>
+        <item>3</item>
+        <item>6</item>
+        <item>12</item>
+        <item>24</item>
+    </string-array>
+    <string-array name="language_labels">
+        <item>Auto</item><item>English</item><item>বাংলা</item>
+    </string-array>
+    <string-array name="language_values">
+        <item>auto</item><item>en</item><item>bn</item>
+    </string-array>
+    <string-array name="mood_labels">
+        <item>Energetic</item><item>Calm</item><item>Focus</item><item>Romantic</item>
+        <item>Nature</item><item>Abstract</item><item>City</item><item>Dark</item>
+        <item>Space</item><item>Aesthetic</item>
+    </string-array>
+    <string-array name="quality_labels">
+        <item>WiFi Only (Recommended)</item><item>Any Network</item>
+    </string-array>
+    <string-array name="quality_values">
+        <item>wifi_only</item><item>any</item>
+    </string-array>
+    <string-array name="target_labels">
+        <item>Home Screen</item><item>Lock Screen</item><item>Both</item>
+    </string-array>
+    <string-array name="target_values">
+        <item>HOME</item><item>LOCK</item><item>BOTH</item>
+    </string-array>
+    <color name="accent">#FF6B9D</color>
+    <color name="accent_light">#FF9DC0</color>
+    <color name="ad_background">#0E0E1C</color>
+    <color name="background">#080812</color>
+    <color name="black">#000000</color>
+    <color name="chip_selected_bg">#7C6FFF</color>
+    <color name="chip_selected_text">#FFFFFF</color>
+    <color name="chip_unselected_bg">#1C1C30</color>
+    <color name="chip_unselected_text">#8888BB</color>
+    <color name="divider">#1E1E35</color>
+    <color name="primary">#7C6FFF</color>
+    <color name="primary_dark">#5A4FCC</color>
+    <color name="primary_light">#A99FFF</color>
+    <color name="shimmer_base">#1C1C30</color>
+    <color name="shimmer_highlight">#252540</color>
+    <color name="surface">#12121F</color>
+    <color name="surface_variant">#1C1C30</color>
+    <color name="text_hint">#555580</color>
+    <color name="text_primary">#F0F0FF</color>
+    <color name="text_secondary">#8888BB</color>
+    <color name="white">#FFFFFF</color>
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_banner_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_native_id">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="admob_rewarded_id">ca-app-pub-3940256099942544/5224354917</string>
+    <string name="app_name">AuraWalls</string>
+    <string name="dna_retake_btn">🔄 Retake Aura Quiz</string>
+    <string name="dna_share_btn">✨ Share Aura DNA</string>
+    <string name="dna_share_text">✨ My Aura DNA: %1$s\n\n%2$s\n\nDiscover yours: Download AuraWalls 🌟</string>
+    <string name="dna_title">🧬 Aura DNA</string>
+    <string name="dna_trait_analysis">Trait Analysis</string>
+    <string name="dna_trait_calm">😌 Calm</string>
+    <string name="dna_trait_creative">🎨 Creative</string>
+    <string name="dna_trait_depth">🌊 Depth</string>
+    <string name="dna_trait_energy">⚡ Energy</string>
+    <string name="dna_trait_mystery">🌙 Mystery</string>
+    <string name="dna_your">🧬 Your Aura DNA</string>
+    <string name="downloading">Downloading…</string>
+    <string name="healing_banner_text">💙 Healing Journey — Day 0/30</string>
+    <string name="healing_feature1_desc">Soft, comforting wallpapers set automatically</string>
+    <string name="healing_feature1_title">Healing Wallpapers</string>
+    <string name="healing_feature2_desc">30 motivational messages, one each day</string>
+    <string name="healing_feature2_title">Daily Healing Messages</string>
+    <string name="healing_feature3_desc">A celebration when you complete all 30 days</string>
+    <string name="healing_feature3_title">30-Day Journey</string>
+    <string name="healing_hero_subtitle">You are not alone. We\'re with you on this journey.</string>
+    <string name="healing_loading_msg">Loading today\'s message…</string>
+    <string name="healing_mode_title">💙 Healing Mode</string>
+    <string name="healing_not_active_quote">💬</string>
+    <string name="healing_privacy_note">Your privacy is fully protected. No data is shared.</string>
+    <string name="healing_section_wallpapers">🌸 Healing Wallpapers</string>
+    <string name="healing_start_btn">💙  Start Healing Journey</string>
+    <string name="healing_start_later">Maybe later</string>
+    <string name="healing_start_msg">For 30 days, you\'ll get a daily healing message and your wallpaper will automatically switch to something comforting. Ready to begin?</string>
+    <string name="healing_start_title">Start Healing Journey?</string>
+    <string name="healing_start_yes">Yes, let\'s begin</string>
+    <string name="healing_started_toast">💙 Healing Journey started! You\'ll get a message every day.</string>
+    <string name="healing_stop_btn">Stop Healing Mode</string>
+    <string name="healing_stop_msg">Your progress will be lost. Are you sure?</string>
+    <string name="healing_stop_no">No</string>
+    <string name="healing_stop_title">Stop Healing Mode?</string>
+    <string name="healing_stop_yes">Yes</string>
+    <string name="healing_stopped_toast">Healing Mode stopped.</string>
+    <string name="healing_what_you_get">What you\'ll get in Healing Mode:</string>
+    <string name="healing_your_journey">Your Healing Journey</string>
+    <string name="mood_almost">✨ Almost done...</string>
+    <string name="mood_analyzing">🔍 Analyzing your face...</string>
+    <string name="mood_apply_btn">🎨 Apply Mood Wallpaper</string>
+    <string name="mood_detected">Detected Mood</string>
+    <string name="mood_processing">🧠 Processing emotions...</string>
+    <string name="mood_scan_btn">📸 Scan My Mood</string>
+    <string name="mood_subtitle">Scan your face, get wallpapers that match your mood</string>
+    <string name="mood_title">😊 Mood Detector</string>
+    <string name="nav_dna">AuraDNA</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_mood">Mood</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_videos">Videos</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="no_internet_msg">Please check your connection and try again</string>
+    <string name="no_videos_found">No videos found. Try another mood.</string>
+    <string name="open_arrow">Open →</string>
+    <string name="press_back_exit">Press back again to exit</string>
+    <string name="privacy_title">Privacy Policy</string>
+    <string name="retry">Retry</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_language_auto">Auto (based on region)</string>
+    <string name="splash_tagline">Your vibe. Your walls.</string>
+    <string name="splash_version">v1.0.0</string>
+    <string name="video_coming_soon">Video wallpaper coming soon!</string>
+    <string name="video_download">⬇ Download</string>
+    <string name="video_set_wallpaper">📱 Set</string>
+    <string name="video_source_note">Videos from Pexels &amp; Pixabay — Free &amp; Licensed</string>
+    <string name="video_walls_title">🎬 Video Walls</string>
+    <string name="wallpaper_preview">Wallpaper preview</string>
+    <string name="wallpaper_thumbnail">Wallpaper thumbnail</string>
+    <string name="your_aura">✨ Your Aura: </string>
+    <style name="Theme.AuraWalls" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:navigationBarColor">@color/background</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="chipStyle">@style/Widget.AuraWalls.Chip</item>
+        <item name="elevationOverlayEnabled">true</item>
+        <item name="elevationOverlayColor">@color/primary</item>
+    </style>
+    <style name="VideoBottomSheet" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="backgroundTint">#0D0E1A</item>
+        <item name="android:backgroundTint">#0D0E1A</item>
+    </style>
+    <style name="VideoBottomSheetStyle" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="bottomSheetStyle">@style/VideoBottomSheet</item>
+    </style>
+    <style name="Widget.AuraWalls.Chip" parent="Widget.MaterialComponents.Chip.Filter">
+        <item name="android:textColor">@color/chip_unselected_text</item>
+        <item name="chipBackgroundColor">@color/chip_unselected_bg</item>
+        <item name="chipStrokeColor">#2A2A45</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="chipCornerRadius">20dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="chipMinHeight">34dp</item>
+        <item name="checkedIconVisible">false</item>
+    </style>
+</resources>

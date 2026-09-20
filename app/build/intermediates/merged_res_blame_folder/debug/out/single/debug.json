@@ -1,0 +1,302 @@
+[
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/layout_dialog_wallpaper_set_success.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/dialog_wallpaper_set_success.xml"
+    },
+    {
+        "merged": "com.aurawalls.app-merged_res-63:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.aurawalls.app-main-65:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/layout_activity_video.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/activity_video.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/layout_activity_privacy_policy.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/activity_privacy_policy.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/drawable_gradient_top_black.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/drawable/gradient_top_black.xml"
+    },
+    {
+        "merged": "com.aurawalls.app-merged_res-63:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.aurawalls.app-main-65:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/drawable_bg_fav_circle.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/drawable/bg_fav_circle.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/drawable_skeleton_shimmer.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/drawable/skeleton_shimmer.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/drawable_circle_play_bg.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/drawable/circle_play_bg.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/layout_activity_main.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.aurawalls.app-merged_res-63:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.aurawalls.app-main-65:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/layout_activity_aura_dna.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/activity_aura_dna.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/layout_widget_aura.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/widget_aura.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/color_bottom_nav_colors.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/color/bottom_nav_colors.xml"
+    },
+    {
+        "merged": "com.aurawalls.app-merged_res-63:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.aurawalls.app-main-65:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/layout_activity_favorites.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/activity_favorites.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/menu_main_menu.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/menu/main_menu.xml"
+    },
+    {
+        "merged": "com.aurawalls.app-merged_res-63:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.aurawalls.app-main-65:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.aurawalls.app-merged_res-63:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.aurawalls.app-main-65:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.aurawalls.app-merged_res-63:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.aurawalls.app-main-65:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.aurawalls.app-merged_res-63:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.aurawalls.app-main-65:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/drawable_crop_screen_overlay.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/drawable/crop_screen_overlay.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/xml_aura_widget_info.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/xml/aura_widget_info.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/layout_activity_mood_camera.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/activity_mood_camera.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/layout_activity_wallpaper_detail.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/activity_wallpaper_detail.xml"
+    },
+    {
+        "merged": "com.aurawalls.app-merged_res-63:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.aurawalls.app-main-65:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.aurawalls.app-merged_res-63:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.aurawalls.app-main-65:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/layout_activity_breakup_mode.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/activity_breakup_mode.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.aurawalls.app-merged_res-63:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.aurawalls.app-main-65:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/layout_view_no_internet.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/view_no_internet.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/xml_file_paths.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/xml/file_paths.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/layout_item_native_ad.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/item_native_ad.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/layout_dialog_set_wallpaper.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/dialog_set_wallpaper.xml"
+    },
+    {
+        "merged": "com.aurawalls.app-merged_res-63:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.aurawalls.app-main-65:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/xml_preferences.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/xml/preferences.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/drawable_btn_continue_bg.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/drawable/btn_continue_bg.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/layout_activity_onboarding.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/activity_onboarding.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/layout_item_video.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/item_video.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/drawable_placeholder_wallpaper.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/drawable/placeholder_wallpaper.xml"
+    },
+    {
+        "merged": "com.aurawalls.app-merged_res-63:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.aurawalls.app-main-65:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/layout_view_empty_favorites.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/view_empty_favorites.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/drawable_widget_bg.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/drawable/widget_bg.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/layout_activity_settings.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/drawable_ic_menu_hamburger.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/drawable/ic_menu_hamburger.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/layout_activity_profile.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "com.aurawalls.app-merged_res-63:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.aurawalls.app-main-65:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/layout_item_video_skeleton.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/item_video_skeleton.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/layout_dialog_wallpaper_preview.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/dialog_wallpaper_preview.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/layout_item_wallpaper.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/item_wallpaper.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/drawable_btn_share_aura_bg.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/drawable/btn_share_aura_bg.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.aurawalls.app-merged_res-63:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.aurawalls.app-main-65:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.aurawalls.app-merged_res-63:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.aurawalls.app-main-65:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.aurawalls.app-merged_res-63:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.aurawalls.app-main-65:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/menu_bottom_nav_menu.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/layout_dialog_video_player.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/dialog_video_player.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/drawable_gradient_bottom_black.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/drawable/gradient_bottom_black.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/drawable_gradient_unlock_bg.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/drawable/gradient_unlock_bg.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/drawable_breakup_hero_bg.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/drawable/breakup_hero_bg.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/drawable_circle_continue_bg.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/drawable/circle_continue_bg.xml"
+    },
+    {
+        "merged": "com.aurawalls.app-merged_res-63:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.aurawalls.app-main-65:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/layout_activity_wallpaper_crop.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/activity_wallpaper_crop.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/drawable_circle_share_bg.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/drawable/circle_share_bg.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/drawable_result_bg_overlay.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/drawable/result_bg_overlay.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-merged_res-63:/layout_activity_splash.xml.flat",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/activity_splash.xml"
+    }
+]

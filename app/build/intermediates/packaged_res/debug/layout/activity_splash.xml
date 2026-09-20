@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <!-- Background gradient -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/gradient_unlock_bg"
+        android:scaleType="fitXY"
+        android:alpha="0.85"/>
+
+    <!-- Radial glow behind emoji -->
+    <View
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="60dp"
+        android:background="#186C63FF"
+        android:elevation="0dp"/>
+
+    <!-- Center content -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- Emoji -->
+        <TextView
+            android:id="@+id/tv_splash_emoji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="✨"
+            android:textSize="80sp"
+            android:gravity="center"/>
+
+        <!-- App name -->
+        <TextView
+            android:id="@+id/tv_splash_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:letterSpacing="0.08"
+            android:layout_marginTop="16dp"
+            android:gravity="center"/>
+
+        <!-- Tagline -->
+        <TextView
+            android:id="@+id/tv_splash_tagline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/splash_tagline"
+            android:textSize="15sp"
+            android:textColor="#CCFFFFFF"
+            android:letterSpacing="0.04"
+            android:layout_marginTop="10dp"
+            android:gravity="center"/>
+
+        <!-- Shimmer bar -->
+        <View
+            android:id="@+id/splash_shimmer"
+            android:layout_width="80dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="20dp"
+            android:background="#AA7C6FFF"
+            android:alpha="0"/>
+
+    </LinearLayout>
+
+    <!-- Version bottom -->
+    <TextView
+        android:id="@+id/tv_splash_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="48dp"
+        android:text="@string/splash_version"
+        android:textSize="12sp"
+        android:textColor="#88FFFFFF"
+        android:alpha="0"/>
+
+</FrameLayout>

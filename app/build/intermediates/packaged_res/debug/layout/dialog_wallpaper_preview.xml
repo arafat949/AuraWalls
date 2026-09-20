@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0D0E1A"
+    android:paddingBottom="24dp">
+
+    <!-- Handle -->
+    <View
+        android:layout_width="40dp"
+        android:layout_height="4dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="#44FFFFFF"/>
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Wallpaper"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="16dp"/>
+
+    <!-- Phone mockup preview -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="160dp"
+        android:layout_height="280dp"
+        android:layout_gravity="center_horizontal"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="12dp"
+        app:cardBackgroundColor="#000000">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iv_phone_preview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"/>
+
+            <!-- Phone notch overlay -->
+            <View
+                android:layout_width="60dp"
+                android:layout_height="16dp"
+                android:layout_gravity="top|center_horizontal"
+                android:layout_marginTop="8dp"
+                android:background="#CC000000"/>
+        </FrameLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Scale mode toggle -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="8dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_fill"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="6dp"
+            android:text="Fill"
+            android:textSize="12sp"
+            android:textColor="#FFFFFF"
+            app:backgroundTint="#6C63FF"
+            app:cornerRadius="18dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_fit"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="6dp"
+            android:text="Fit"
+            android:textSize="12sp"
+            android:textColor="#6C63FF"
+            app:backgroundTint="#00000000"
+            app:strokeColor="#6C63FF"
+            app:strokeWidth="1dp"
+            app:cornerRadius="18dp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_center"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:text="Center"
+            android:textSize="12sp"
+            android:textColor="#6C63FF"
+            app:backgroundTint="#00000000"
+            app:strokeColor="#6C63FF"
+            app:strokeWidth="1dp"
+            app:cornerRadius="18dp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+    </LinearLayout>
+
+    <!-- Action buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingTop="12dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_preview_cancel"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            android:text="Cancel"
+            android:textColor="#FFFFFF"
+            app:strokeColor="#44FFFFFF"
+            app:cornerRadius="24dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_preview_set"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="2"
+            android:text="✓ Set Wallpaper"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:backgroundTint="#6C63FF"
+            app:cornerRadius="24dp"/>
+    </LinearLayout>
+
+</LinearLayout>

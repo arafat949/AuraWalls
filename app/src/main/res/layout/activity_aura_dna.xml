@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="40dp">
+
+        <!-- Header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingTop="24dp"
+            android:paddingBottom="16dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="✨ Your Aura DNA"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_primary"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your unique personality fingerprint — no two are the same"
+                android:textSize="13sp"
+                android:textColor="@color/text_secondary"
+                android:gravity="center"
+                android:layout_marginTop="6dp"/>
+        </LinearLayout>
+
+        <!-- Aura Card Preview -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="16dp">
+
+            <ImageView
+                android:id="@+id/iv_aura_card"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"/>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Info Cards -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:weightSum="2">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"
+                app:cardCornerRadius="16dp"
+                app:cardBackgroundColor="@color/surface"
+                app:cardElevation="0dp"
+                app:strokeColor="#1Affffff"
+                app:strokeWidth="1dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Aura Type"
+                        android:textSize="11sp"
+                        android:textColor="@color/text_secondary"/>
+                    <TextView
+                        android:id="@+id/tv_aura_dna_type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="🚀 COSMIC EXPLORER"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/text_primary"
+                        android:layout_marginTop="4dp"/>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                app:cardCornerRadius="16dp"
+                app:cardBackgroundColor="@color/surface"
+                app:cardElevation="0dp"
+                app:strokeColor="#1Affffff"
+                app:strokeWidth="1dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Aura Score"
+                        android:textSize="11sp"
+                        android:textColor="@color/text_secondary"/>
+                    <TextView
+                        android:id="@+id/tv_aura_dna_score"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Score: --/100"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/primary"
+                        android:layout_marginTop="4dp"/>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+
+        <!-- Hidden title for reference -->
+        <TextView
+            android:id="@+id/tv_aura_dna_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+        <!-- Share Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_share_dna"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="12dp"
+            android:text="🔗  Share My Aura DNA"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:cornerRadius="27dp"
+            app:backgroundTint="@color/primary"
+            app:icon="@android:drawable/ic_menu_share"
+            app:iconTint="@color/white"
+            app:iconSize="18dp"
+            app:iconPadding="8dp"/>
+
+        <!-- Save Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_save_card"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="12dp"
+            android:text="💾  Save to Gallery"
+            android:textSize="15sp"
+            android:textColor="@color/primary"
+            app:cornerRadius="27dp"
+            app:strokeColor="@color/primary"
+            app:strokeWidth="1dp"
+            app:backgroundTint="#1A7C6FFF"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+        <!-- Regenerate Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_regenerate"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="🔄  Generate New Pattern"
+            android:textSize="13sp"
+            android:textColor="@color/text_secondary"
+            app:cornerRadius="24dp"
+            app:strokeColor="@color/text_secondary"
+            app:strokeWidth="1dp"
+            app:backgroundTint="#00000000"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

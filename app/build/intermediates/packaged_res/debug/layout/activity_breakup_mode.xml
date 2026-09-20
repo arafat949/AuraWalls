@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="48dp">
+
+        <!-- ── Hero Section ── -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="280dp">
+
+            <!-- Background gradient -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/breakup_hero_bg"/>
+
+            <!-- Content -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="24dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="💙"
+                    android:textSize="64sp"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Healing Mode"
+                    android:textSize="32sp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:gravity="center"
+                    android:layout_marginTop="12dp"
+                    android:shadowColor="#AA000000"
+                    android:shadowRadius="8"
+                    android:shadowDx="0"
+                    android:shadowDy="2"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="তুমি একা নও। এই journey তে আমরা তোমার সাথে আছি।"
+                    android:textSize="14sp"
+                    android:textColor="#CCffffff"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:lineSpacingMultiplier="1.5"/>
+            </LinearLayout>
+        </FrameLayout>
+
+        <!-- ── Active State (shown when active) ── -->
+        <LinearLayout
+            android:id="@+id/layout_active"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:visibility="gone">
+
+            <!-- Progress Card -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp"
+                app:cardBackgroundColor="#1A6C63FF"
+                app:cardElevation="0dp"
+                app:strokeColor="#336C63FF"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="তোমার Healing Journey"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"/>
+
+                        <TextView
+                            android:id="@+id/tv_day_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Day 1/30"
+                            android:textSize="14sp"
+                            android:textColor="#AA7C6FFF"
+                            android:textStyle="bold"/>
+                    </LinearLayout>
+
+                    <com.google.android.material.progressindicator.LinearProgressIndicator
+                        android:id="@+id/pb_healing"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:indeterminate="false"
+                        app:indicatorColor="@color/primary"
+                        app:trackColor="#22ffffff"
+                        app:trackCornerRadius="4dp"/>
+
+                    <TextView
+                        android:id="@+id/tv_today_message"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="আজকের message লোড হচ্ছে..."
+                        android:textSize="14sp"
+                        android:textColor="#DDffffff"
+                        android:lineSpacingMultiplier="1.6"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Stop Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_stop_healing"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Healing Mode বন্ধ করো"
+                android:textColor="@color/text_secondary"
+                android:textSize="13sp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                app:cornerRadius="24dp"
+                app:strokeColor="@color/text_secondary"
+                app:strokeWidth="1dp"/>
+        </LinearLayout>
+
+        <!-- ── Inactive State (shown when not active) ── -->
+        <LinearLayout
+            android:id="@+id/layout_inactive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <!-- Quote card -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                app:cardCornerRadius="20dp"
+                app:cardBackgroundColor="@color/surface"
+                app:cardElevation="0dp"
+                app:strokeColor="#1Affffff"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="💬"
+                        android:textSize="32sp"/>
+
+                    <TextView
+                        android:id="@+id/tv_quote"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text='"কষ্ট তোমাকে ভাঙে না, তোমাকে গড়ে।"'
+                        android:textSize="16sp"
+                        android:textColor="@color/text_primary"
+                        android:gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:lineSpacingMultiplier="1.6"
+                        android:textStyle="italic"/>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- What you get -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Healing Mode এ যা পাবে:"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_primary"
+                android:layout_marginBottom="12dp"/>
+
+            <!-- Feature 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="12dp">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="44dp"
+                    android:layout_height="44dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardBackgroundColor="#1AFF6584">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="🌸"
+                        android:textSize="20sp"/>
+                </com.google.android.material.card.MaterialCardView>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginStart="12dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Healing Wallpapers"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/text_primary"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Soft, comforting wallpapers automatically set হবে"
+                        android:textSize="12sp"
+                        android:textColor="@color/text_secondary"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Feature 2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="12dp">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="44dp"
+                    android:layout_height="44dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardBackgroundColor="#1A6C63FF">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="💬"
+                        android:textSize="20sp"/>
+                </com.google.android.material.card.MaterialCardView>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginStart="12dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Daily Healing Messages"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/text_primary"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="৩০ দিন প্রতিদিন একটা করে motivational message"
+                        android:textSize="12sp"
+                        android:textColor="@color/text_secondary"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Feature 3 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="24dp">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="44dp"
+                    android:layout_height="44dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardBackgroundColor="#1A27AE60">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="🏆"
+                        android:textSize="20sp"/>
+                </com.google.android.material.card.MaterialCardView>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginStart="12dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="30-Day Journey"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/text_primary"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="৩০ দিন পরে 'তুমি আরো strong হয়েছো' celebration"
+                        android:textSize="12sp"
+                        android:textColor="@color/text_secondary"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Start Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_start_healing"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="💙  Healing Journey শুরু করো"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:cornerRadius="28dp"
+                app:backgroundTint="#6C63FF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="তোমার privacy সম্পূর্ণ সুরক্ষিত। কোনো data share হয় না।"
+                android:textSize="11sp"
+                android:textColor="@color/text_secondary"
+                android:gravity="center"
+                android:layout_marginTop="12dp"/>
+
+        </LinearLayout>
+
+        <!-- ── Healing Wallpaper Section ── -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🌸 Healing Wallpapers"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_primary"
+                android:layout_marginBottom="12dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_healing_wallpapers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

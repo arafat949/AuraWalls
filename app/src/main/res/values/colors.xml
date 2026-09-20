@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#7C6FFF</color>
+    <color name="primary_dark">#5A4FCC</color>
+    <color name="primary_light">#A99FFF</color>
+    <color name="accent">#FF6B9D</color>
+    <color name="accent_light">#FF9DC0</color>
+    <color name="background">#080812</color>
+    <color name="surface">#12121F</color>
+    <color name="surface_variant">#1C1C30</color>
+    <color name="ad_background">#0E0E1C</color>
+    <color name="text_primary">#F0F0FF</color>
+    <color name="text_secondary">#8888BB</color>
+    <color name="text_hint">#555580</color>
+    <color name="chip_selected_bg">#7C6FFF</color>
+    <color name="chip_unselected_bg">#1C1C30</color>
+    <color name="chip_selected_text">#FFFFFF</color>
+    <color name="chip_unselected_text">#8888BB</color>
+    <color name="divider">#1E1E35</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="shimmer_base">#1C1C30</color>
+    <color name="shimmer_highlight">#252540</color>
+</resources>

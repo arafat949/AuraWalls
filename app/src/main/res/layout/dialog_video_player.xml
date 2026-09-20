@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0D0E1A">
+
+    <!-- ── Video Player Area ── -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:background="#000000">
+
+        <!-- Thumbnail (shown instantly) -->
+        <ImageView
+            android:id="@+id/dialog_iv_thumb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"/>
+
+        <!-- Shimmer/blur overlay while loading -->
+        <View
+            android:id="@+id/loading_overlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#99000000"
+            android:visibility="gone"/>
+
+        <!-- Player -->
+        <androidx.media3.ui.PlayerView
+            android:id="@+id/dialog_player_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            app:use_controller="true"
+            app:show_timeout="3000"
+            app:resize_mode="fit"
+            app:show_previous_button="false"
+            app:show_next_button="false"/>
+
+        <!-- Smooth loading indicator (small, bottom center) -->
+        <LinearLayout
+            android:id="@+id/loading_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:text="Loading..."
+                android:textColor="#88FFFFFF"
+                android:textSize="11sp"/>
+
+            <ProgressBar
+                android:id="@+id/dialog_loading"
+                style="@android:style/Widget.Material.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:indeterminate="true"
+                android:progressTint="#6C63FF"
+                android:indeterminateTint="#6C63FF"/>
+        </LinearLayout>
+
+        <!-- Close button -->
+        <ImageView
+            android:id="@+id/dialog_iv_close"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="top|start"
+            android:layout_margin="10dp"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            android:background="#88000000"
+            android:padding="8dp"
+            android:scaleType="fitCenter"/>
+
+        <!-- Duration badge -->
+        <TextView
+            android:id="@+id/dialog_tv_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|end"
+            android:layout_margin="10dp"
+            android:background="#CC000000"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:text="0:00"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:textStyle="bold"/>
+
+        <!-- Mute button -->
+        <ImageView
+            android:id="@+id/dialog_iv_mute"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="10dp"
+            android:src="@android:drawable/ic_lock_silent_mode_off"
+            android:background="#88000000"
+            android:padding="8dp"
+            android:scaleType="fitCenter"/>
+
+        <!-- Attribution -->
+        <TextView
+            android:id="@+id/dialog_tv_attribution"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|start"
+            android:layout_margin="10dp"
+            android:textColor="#CCFFFFFF"
+            android:textSize="11sp"
+            android:text="Video by Author"/>
+
+    </FrameLayout>
+
+    <!-- ── Action Buttons ── -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="14dp"
+        android:paddingEnd="14dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="#0D0E1A">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/dialog_btn_set"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            android:text="📱  Set Wallpaper"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            app:backgroundTint="#6C63FF"
+            app:cornerRadius="21dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/dialog_btn_download"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            android:text="⬇  Download"
+            android:textSize="12sp"
+            android:textColor="#6C63FF"
+            app:backgroundTint="#1A6C63FF"
+            app:strokeColor="#6C63FF"
+            app:strokeWidth="1dp"
+            app:cornerRadius="21dp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+    </LinearLayout>
+
+    <!-- Divider -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#1Affffff"/>
+
+    <!-- Related Videos Header -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🎬  Related Videos"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#F0F0FF"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="8dp"
+        android:background="#0D0E1A"/>
+
+    <!-- Related Videos List -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/dialog_rv_related"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:paddingBottom="16dp"/>
+
+</LinearLayout>

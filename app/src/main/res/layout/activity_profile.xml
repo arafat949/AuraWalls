@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0D0E1A">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0D0E1A"
+        app:elevation="0dp">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:titleTextColor="#FFFFFF"/>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:paddingBottom="80dp">
+
+            <!-- AURA CARD -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="24dp"
+                app:cardBackgroundColor="#1A1040"
+                app:strokeColor="#446C63FF"
+                app:strokeWidth="1dp"
+                app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="My Aura Space"
+                        android:textColor="#AA7C6FFF"
+                        android:textSize="12sp"/>
+                    <TextView
+                        android:id="@+id/tv_aura_type"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:textSize="26sp"
+                        android:textStyle="bold"
+                        android:textColor="#FFFFFF"
+                        android:text="Wild Heart"/>
+                    <TextView
+                        android:id="@+id/tv_aura_mood"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:textSize="13sp"
+                        android:textColor="#AA7C6FFF"
+                        android:text="Night Wanderer"/>
+                    <TextView
+                        android:id="@+id/tv_aura_empty"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="Take the Aura Quiz to discover your personality"
+                        android:textSize="12sp"
+                        android:textColor="#666699"
+                        android:visibility="gone"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="16dp">
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btn_share_aura"
+                            android:layout_width="0dp"
+                            android:layout_height="38dp"
+                            android:layout_weight="1"
+                            android:text="Share Aura"
+                            android:textSize="13sp"
+                            app:backgroundTint="#7C6FFF"
+                            app:cornerRadius="20dp"/>
+                        <View android:layout_width="10dp" android:layout_height="1dp"/>
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btn_retake_quiz"
+                            android:layout_width="0dp"
+                            android:layout_height="38dp"
+                            android:layout_weight="1"
+                            android:text="Retake Quiz"
+                            android:textSize="13sp"
+                            android:textColor="#7C6FFF"
+                            app:backgroundTint="#1A7C6FFF"
+                            app:strokeColor="#7C6FFF"
+                            app:strokeWidth="1dp"
+                            app:cornerRadius="20dp"
+                            style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- STATS -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp"
+                app:cardBackgroundColor="#12121F"
+                app:cardElevation="4dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="My Stats"
+                        android:textColor="#FFFFFF"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="14dp"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:gravity="center">
+                            <TextView
+                                android:id="@+id/tv_stat_wallpapers"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0"
+                                android:textSize="28sp"
+                                android:textStyle="bold"
+                                android:textColor="#7C6FFF"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Wallpapers Set"
+                                android:textSize="11sp"
+                                android:textColor="#666699"
+                                android:gravity="center"/>
+                        </LinearLayout>
+                        <View android:layout_width="1dp" android:layout_height="48dp" android:background="#1AFFFFFF"/>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:gravity="center">
+                            <TextView
+                                android:id="@+id/tv_stat_favorites"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0"
+                                android:textSize="28sp"
+                                android:textStyle="bold"
+                                android:textColor="#FF6B9D"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Favorites"
+                                android:textSize="11sp"
+                                android:textColor="#666699"
+                                android:gravity="center"/>
+                        </LinearLayout>
+                        <View android:layout_width="1dp" android:layout_height="48dp" android:background="#1AFFFFFF"/>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:gravity="center">
+                            <TextView
+                                android:id="@+id/tv_stat_healing"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0"
+                                android:textSize="28sp"
+                                android:textStyle="bold"
+                                android:textColor="#4A90D9"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Healing Day"
+                                android:textSize="11sp"
+                                android:textColor="#666699"
+                                android:gravity="center"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- SHORTCUTS -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card_favorites"
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="8dp"
+                    app:cardCornerRadius="16dp"
+                    app:cardBackgroundColor="#1AFF6B9D"
+                    app:strokeColor="#33FF6B9D"
+                    app:strokeWidth="1dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="&#11088;" android:textSize="24sp"/>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="Favorites" android:textSize="12sp" android:textColor="#FFFFFF"
+                            android:layout_marginTop="4dp"/>
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card_dna"
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:layout_marginStart="8dp"
+                    app:cardCornerRadius="16dp"
+                    app:cardBackgroundColor="#1A7C6FFF"
+                    app:strokeColor="#337C6FFF"
+                    app:strokeWidth="1dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="&#129516;" android:textSize="24sp"/>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="Aura DNA" android:textSize="12sp" android:textColor="#FFFFFF"
+                            android:layout_marginTop="4dp"/>
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+
+            <!-- SETTINGS LABEL -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="APP SETTINGS"
+                android:textColor="#555580"
+                android:textSize="11sp"
+                android:letterSpacing="0.15"
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="4dp"/>
+
+            <!-- SETTINGS CARD -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="16dp"
+                app:cardBackgroundColor="#12121F"
+                app:cardElevation="2dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout android:id="@+id/row_language"
+                        android:layout_width="match_parent" android:layout_height="56dp"
+                        android:orientation="horizontal" android:gravity="center_vertical"
+                        android:paddingStart="16dp" android:paddingEnd="16dp">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="&#127759;" android:textSize="18sp"/>
+                        <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:text="Language"
+                            android:textColor="#FFFFFF" android:textSize="14sp" android:layout_marginStart="12dp"/>
+                        <TextView android:id="@+id/tv_current_language" android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:textColor="#555580" android:textSize="13sp" android:text="English"/>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text=" >" android:textColor="#555580" android:textSize="16sp"/>
+                    </LinearLayout>
+
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                        android:background="#0DFFFFFF" android:layout_marginStart="46dp"/>
+
+                    <LinearLayout android:id="@+id/row_grid"
+                        android:layout_width="match_parent" android:layout_height="56dp"
+                        android:orientation="horizontal" android:gravity="center_vertical"
+                        android:paddingStart="16dp" android:paddingEnd="16dp">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="&#127912;" android:textSize="18sp"/>
+                        <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:text="Grid Style"
+                            android:textColor="#FFFFFF" android:textSize="14sp" android:layout_marginStart="12dp"/>
+                        <TextView android:id="@+id/tv_current_grid" android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:textColor="#555580" android:textSize="13sp" android:text="2 Col"/>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text=" >" android:textColor="#555580" android:textSize="16sp"/>
+                    </LinearLayout>
+
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                        android:background="#0DFFFFFF" android:layout_marginStart="46dp"/>
+
+                    <LinearLayout android:id="@+id/row_notifications"
+                        android:layout_width="match_parent" android:layout_height="56dp"
+                        android:orientation="horizontal" android:gravity="center_vertical"
+                        android:paddingStart="16dp" android:paddingEnd="16dp">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="&#128276;" android:textSize="18sp"/>
+                        <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:text="Notifications"
+                            android:textColor="#FFFFFF" android:textSize="14sp" android:layout_marginStart="12dp"/>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text=">" android:textColor="#555580" android:textSize="16sp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- INFO LABEL -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INFO"
+                android:textColor="#555580"
+                android:textSize="11sp"
+                android:letterSpacing="0.15"
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="4dp"/>
+
+            <!-- INFO CARD -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="16dp"
+                app:cardBackgroundColor="#12121F"
+                app:cardElevation="2dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout android:id="@+id/row_privacy"
+                        android:layout_width="match_parent" android:layout_height="56dp"
+                        android:orientation="horizontal" android:gravity="center_vertical"
+                        android:paddingStart="16dp" android:paddingEnd="16dp">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="&#128274;" android:textSize="18sp"/>
+                        <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:text="Privacy Policy"
+                            android:textColor="#FFFFFF" android:textSize="14sp" android:layout_marginStart="12dp"/>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text=">" android:textColor="#555580" android:textSize="16sp"/>
+                    </LinearLayout>
+
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                        android:background="#0DFFFFFF" android:layout_marginStart="46dp"/>
+
+                    <LinearLayout android:id="@+id/row_rate"
+                        android:layout_width="match_parent" android:layout_height="56dp"
+                        android:orientation="horizontal" android:gravity="center_vertical"
+                        android:paddingStart="16dp" android:paddingEnd="16dp">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="&#11088;" android:textSize="18sp"/>
+                        <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:text="Rate AuraWalls"
+                            android:textColor="#FFFFFF" android:textSize="14sp" android:layout_marginStart="12dp"/>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text=">" android:textColor="#555580" android:textSize="16sp"/>
+                    </LinearLayout>
+
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                        android:background="#0DFFFFFF" android:layout_marginStart="46dp"/>
+
+                    <LinearLayout android:id="@+id/row_share_app"
+                        android:layout_width="match_parent" android:layout_height="56dp"
+                        android:orientation="horizontal" android:gravity="center_vertical"
+                        android:paddingStart="16dp" android:paddingEnd="16dp">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="&#128228;" android:textSize="18sp"/>
+                        <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:text="Share App"
+                            android:textColor="#FFFFFF" android:textSize="14sp" android:layout_marginStart="12dp"/>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text=">" android:textColor="#555580" android:textSize="16sp"/>
+                    </LinearLayout>
+
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                        android:background="#0DFFFFFF" android:layout_marginStart="46dp"/>
+
+                    <LinearLayout android:id="@+id/row_about"
+                        android:layout_width="match_parent" android:layout_height="56dp"
+                        android:orientation="horizontal" android:gravity="center_vertical"
+                        android:paddingStart="16dp" android:paddingEnd="16dp">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="&#8505;&#65039;" android:textSize="18sp"/>
+                        <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:text="About AuraWalls"
+                            android:textColor="#FFFFFF" android:textSize="14sp" android:layout_marginStart="12dp"/>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="v1.0.0" android:textColor="#555580" android:textSize="12sp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

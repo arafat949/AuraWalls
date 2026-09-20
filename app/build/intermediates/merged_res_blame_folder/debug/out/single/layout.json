@@ -1,0 +1,102 @@
+[
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-mergeDebugResources-62:/layout/dialog_set_wallpaper.xml",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/dialog_set_wallpaper.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-mergeDebugResources-62:/layout/activity_mood_camera.xml",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/activity_mood_camera.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-mergeDebugResources-62:/layout/activity_profile.xml",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-mergeDebugResources-62:/layout/item_native_ad.xml",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/item_native_ad.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-mergeDebugResources-62:/layout/activity_favorites.xml",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/activity_favorites.xml"
+    },
+    {
+        "merged": "com.aurawalls.app-mergeDebugResources-62:/layout/activity_wallpaper_detail.xml",
+        "source": "com.aurawalls.app-main-65:/layout/activity_wallpaper_detail.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-mergeDebugResources-62:/layout/activity_main.xml",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-mergeDebugResources-62:/layout/dialog_wallpaper_preview.xml",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/dialog_wallpaper_preview.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-mergeDebugResources-62:/layout/dialog_wallpaper_set_success.xml",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/dialog_wallpaper_set_success.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-mergeDebugResources-62:/layout/dialog_video_player.xml",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/dialog_video_player.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-mergeDebugResources-62:/layout/item_video.xml",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/item_video.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-mergeDebugResources-62:/layout/view_no_internet.xml",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/view_no_internet.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-mergeDebugResources-62:/layout/widget_aura.xml",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/widget_aura.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-mergeDebugResources-62:/layout/activity_breakup_mode.xml",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/activity_breakup_mode.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-mergeDebugResources-62:/layout/activity_privacy_policy.xml",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/activity_privacy_policy.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-mergeDebugResources-62:/layout/activity_aura_dna.xml",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/activity_aura_dna.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-mergeDebugResources-62:/layout/activity_onboarding.xml",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/activity_onboarding.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-mergeDebugResources-62:/layout/activity_settings.xml",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-mergeDebugResources-62:/layout/item_video_skeleton.xml",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/item_video_skeleton.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-mergeDebugResources-62:/layout/view_empty_favorites.xml",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/view_empty_favorites.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-mergeDebugResources-62:/layout/activity_splash.xml",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-mergeDebugResources-62:/layout/activity_video.xml",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/activity_video.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-mergeDebugResources-62:/layout/activity_wallpaper_crop.xml",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/activity_wallpaper_crop.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-mergeDebugResources-62:/layout/item_wallpaper.xml",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/item_wallpaper.xml"
+    },
+    {
+        "merged": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-mergeDebugResources-62:/layout/activity_wallpaper_detail.xml",
+        "source": "/home/arafat/.gradle/daemon/8.5/com.aurawalls.app-main-65:/layout/activity_wallpaper_detail.xml"
+    }
+]

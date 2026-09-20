@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="⏱️  Auto Wallpaper Changer">
+        <SwitchPreferenceCompat app:key="auto_enabled" app:title="Auto Wallpaper Changer"
+            app:summary="Automatically change your wallpaper in the background" app:defaultValue="false"/>
+        <ListPreference app:key="auto_interval_hours" app:title="Change Interval"
+            app:entries="@array/interval_labels" app:entryValues="@array/interval_values"
+            app:defaultValue="1" app:summary="%s" app:dependency="auto_enabled"/>
+        <ListPreference app:key="auto_mood" app:title="Mood / Category"
+            app:entries="@array/mood_labels" app:entryValues="@array/mood_labels"
+            app:defaultValue="Aesthetic" app:summary="%s" app:dependency="auto_enabled"/>
+        <ListPreference app:key="auto_target" app:title="Apply To"
+            app:entries="@array/target_labels" app:entryValues="@array/target_values"
+            app:defaultValue="BOTH" app:summary="%s"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="🕐  Smart Time Wallpaper">
+        <SwitchPreferenceCompat app:key="smart_time_enabled" app:title="Smart Time Wallpaper"
+            app:summary="Auto-change wallpaper based on time of day" app:defaultValue="false"/>
+        <Preference app:key="smart_time_info" app:title="Time Schedule"
+            app:summary="Dawn→Nature  Morning→Energetic  Noon→Focus  Evening→Romantic  Night→Dark"
+            app:selectable="false" app:dependency="smart_time_enabled"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="🌤️  Weather Wallpaper">
+        <SwitchPreferenceCompat app:key="weather_wallpaper_enabled" app:title="Weather Wallpaper"
+            app:summary="Wallpaper changes based on current weather — rainy, sunny, snowy" app:defaultValue="false"/>
+        <EditTextPreference app:key="weather_city" app:title="Your City"
+            app:summary="Dhaka" app:defaultValue="Dhaka" app:dependency="weather_wallpaper_enabled"/>
+        <Preference app:key="weather_status" app:title="Last Weather Update"
+            app:summary="No data yet" app:selectable="false" app:dependency="weather_wallpaper_enabled"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="💙  Healing Mode">
+        <Preference app:key="open_breakup_mode" app:title="💙 Open Healing Mode"
+            app:summary="Start a 30-day healing journey with daily motivational wallpapers"/>
+        <Preference app:key="healing_status" app:title="Healing Status"
+            app:summary="Inactive" app:selectable="false"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="📥  Download">
+        <ListPreference app:key="download_quality" app:title="Download Quality"
+            app:entries="@array/quality_labels" app:entryValues="@array/quality_values"
+            app:defaultValue="wifi_only" app:summary="%s"/>
+        <Preference app:key="clear_cache" app:title="Clear Cache"
+            app:summary="Delete all cached images to free up space"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="🎨  Appearance">
+        <SwitchPreferenceCompat app:key="dark_theme" app:title="Dark Theme"
+            app:summary="Toggle between dark and light mode" app:defaultValue="true"/>
+        <ListPreference app:key="app_language" app:title="Language"
+            app:entries="@array/language_labels" app:entryValues="@array/language_values"
+            app:defaultValue="en" app:summary="%s"/>
+        <SwitchPreferenceCompat app:key="show_attribution" app:title="Show Photo Credits"
+            app:summary="Display photographer name on wallpaper detail" app:defaultValue="true"/>
+        <ListPreference app:key="grid_columns" app:title="Grid Columns"
+            app:entries="@array/grid_labels" app:entryValues="@array/grid_values"
+            app:defaultValue="2" app:summary="%s"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="🔔  Notifications">
+        <SwitchPreferenceCompat app:key="notify_wallpaper_changed" app:title="Wallpaper Changed Notification"
+            app:summary="Show notification when wallpaper is auto-changed" app:defaultValue="true"/>
+        <SwitchPreferenceCompat app:key="notify_healing" app:title="Healing Journey Notification"
+            app:summary="Receive daily healing messages" app:defaultValue="true"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="⭐  AuraWalls">
+        <Preference app:key="rate_app" app:title="Rate AuraWalls ⭐"
+            app:summary="Enjoying AuraWalls? Leave us a 5-star review!"/>
+        <Preference app:key="share_app" app:title="Share AuraWalls 📤"
+            app:summary="Share with friends and family"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="ℹ️  About">
+        <Preference app:key="about_version" app:title="Version"
+            app:summary="AuraWalls v1.0.0" app:selectable="false"/>
+        <Preference app:key="privacy_policy" app:title="Privacy Policy"
+            app:summary="Read our privacy policy"/>
+        <Preference app:key="reset_aura" app:title="Reset My Aura"
+            app:summary="Restart onboarding and discover a new Aura personality"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
